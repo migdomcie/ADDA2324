@@ -29,7 +29,6 @@ public class Ejercicio2Test {
 			//System.out.println("2) funcional:\n" + Ejercicio2.solucionFuncional(p.first(), p.second()));
 
 		}
-
 	}
 	
 

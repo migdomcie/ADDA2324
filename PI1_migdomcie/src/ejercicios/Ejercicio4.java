@@ -62,7 +62,7 @@ public class Ejercicio4 {
 				m.put(IntPair.of(i, j), res);
 			}	
 		}
-		return res;
+		return res; //m.get(IntPair.of(a, b));
 	}
 }
 

@@ -1,6 +1,8 @@
 package ejercicios;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class Ejercicio2 {
@@ -26,17 +28,16 @@ public class Ejercicio2 {
 		return solucionRecFinal(a,b,ac);
 	}
 	
-	private static List<Integer> solucionRecFinal(Integer a, Integer b, List<Integer> ac){
-		
+	public static List<Integer> solucionRecFinal(Integer a, Integer b, List<Integer> ac){
 		if(a<2 || b < 2) {
 			ac.add(a*b);
 		}else if(a>b) {
-			ac= solucionRecFinal(a%b, b-1, List.of());
 			ac.add(a);
+			ac= solucionRecFinal(a%b, b-1, ac);
 
 		}else {
-			ac= solucionRecFinal(a-2, b/2, List.of());
 			ac.add(b);
+			ac= solucionRecFinal(a-2, b/2, ac);	
 		}
 		
 		return ac;
