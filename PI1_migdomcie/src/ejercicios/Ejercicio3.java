@@ -15,9 +15,22 @@ public class Ejercicio3 {
 		Integer j= 0;
 		
 		while(it1.hasNext() || it2.hasNext()) {
-			
+			if(it1.hasNext() && (i==0 || i%2==1) && i!=ls1.size()-1) {
+				ac.add(it1.next());
+				i= i+1;
+			}else if(it2.hasNext() && (j==0 || j%2==1) && j!=ls2.size()-1) {
+				ac.add(it2.next());
+				j= j+1;
+			}
+			if(i!=0 && i%2==0 && i-j==0) {
+				i= i+1;
+			}else if(j!=0 && j%2==0){
+				j= j+1;
+			}
+				
 		}
-		return null;
+		
+		return ac;
 			
 	}
 	
