@@ -7,7 +7,7 @@ import ejemplos.Ejemplo1;
 import us.lsi.geometria.Punto2D;
 import us.lsi.streams.Stream2;
 
-public class EjemplosTests {
+public class Ejemplo1Test {
 
 	public static void main(String[] args) {
 		String file= "ficheros/ejemplos/Ejemplo1DatosEntrada.txt";

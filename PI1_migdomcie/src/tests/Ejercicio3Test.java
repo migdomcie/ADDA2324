@@ -18,9 +18,11 @@ public class Ejercicio3Test {
 			List<String> ls2= Stream2.file(file2).collect(Collectors.toList());
 			
 			System.out.println(String.format("Datos Entrada %d:\n"+ ls1 + 
-						"\n" + ls2, i));
+						"\n" + ls2, i) + "\n");
 			
-			System.out.println("3) iterativo:\n" + Ejercicio3.solucionIt(ls1, ls2) + "\n");
+			System.out.println(String.format("3.1) iterativo:\n" + Ejercicio3.solucionIt(file1, file2)));
+			System.out.println(String.format("3.2) recursivo final:\n" + Ejercicio3.solucionRecFinal(file1, file2)));
+			System.out.println(String.format("3.3) funcional:\n" + Ejercicio3.solucionFunc(file1, file2)) + "\n");
 		}
 	}
 }

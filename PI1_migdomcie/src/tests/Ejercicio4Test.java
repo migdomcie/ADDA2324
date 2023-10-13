@@ -27,9 +27,6 @@ public class Ejercicio4Test {
 			System.out.println("4) recursivo con memoria:\n" + Ejercicio4.gRecCM(p.first(), p.second()));
 			System.out.println("4) iterativo:\n" + Ejercicio4.gIt(p.first(), p.second()));
 		}
-		//System.out.println("4) recursivo sin memoria:\n" + Ejercicio4.gRecSM(100,100));
-		//System.out.println("4) recursivo con memoria:\n" + Ejercicio4.gRecCM(100,100));
-
 	}
 
 }
