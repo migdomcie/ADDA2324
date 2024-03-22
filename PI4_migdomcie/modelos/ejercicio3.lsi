@@ -1,0 +1,20 @@
+head section
+
+Integer getNumProductos()
+Integer getNumDestinos()
+Integer getCosteAlmc(Integer i, Integer j)
+Integer getDemandaMin(Integer j)
+Integer getCantidadDisp(Integer i)
+
+Integer n = getNumProductos()
+Integer m = getNumDestinos()
+
+goal section
+min sum(getCosteAlmc(i,j) x[i,j], i in 0 .. n, j in 0 .. m)
+
+constraints section
+sum(x[i,j], i in 0 .. n) >= getDemandaMin(j), j in 0 .. m
+sum(x[i,j], j in 0 .. m) <= getCantidadDisp(i), i in 0 .. n
+
+int
+x[i,j], i in 0 .. n, j in 0 .. m

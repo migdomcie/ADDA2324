@@ -1,0 +1,23 @@
+head section
+Integer getNumProductos()
+Integer getNumCategorias()
+Integer getPresupuesto()
+Double getPrecio(Integer i)
+Integer cubreCategoria(Integer i, Integer j)
+Integer getValoracion(Integer i)
+Integer getCategoria(Integer i)
+
+Integer n = getNumProductos()
+Integer m = getNumCategorias()
+Integer p = getPresupuesto()
+
+goal section
+min sum(getPrecio(i) x[i], i in 0 .. n)
+
+constraints section
+sum(cubreCategoria(i,j) x[i], i in 0 .. n) >= 1, j in 0 .. m
+sum(getValoracion(i) x[i] - 3 x[i], i in 0 .. n) >= 0
+sum(getPrecio(i) x[i], i in 0 .. n | getCategoria(i)=j) < p, j in 0 .. m 
+
+bin
+x[i], i in 0 .. n
