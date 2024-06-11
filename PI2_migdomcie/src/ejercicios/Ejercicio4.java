@@ -3,7 +3,6 @@ package ejercicios;
 import java.util.ArrayList;
 import java.util.List;
 
-import us.lsi.common.List2;
 import us.lsi.tiposrecursivos.BinaryTree;
 import us.lsi.tiposrecursivos.BinaryTree.BEmpty;
 import us.lsi.tiposrecursivos.BinaryTree.BLeaf;

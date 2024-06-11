@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import ejercicios.Ejercicio3;
-import ejercicios.Ejercicio4;
 import us.lsi.streams.Stream2;
 
 public class Ejercicio3Test {

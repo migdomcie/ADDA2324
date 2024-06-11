@@ -3,10 +3,8 @@ package tests;
 import java.util.List;
 import java.util.function.Function;
 
-import ejemplos.Ejemplo1;
 import ejemplos.Ejemplo2;
 import us.lsi.common.IntPair;
-import us.lsi.geometria.Punto2D;
 import us.lsi.streams.Stream2;
 
 public class Ejemplo2Test {

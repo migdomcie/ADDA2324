@@ -9,10 +9,8 @@ import java.util.stream.Collectors;
 
 import org.jgrapht.Graph;
 import org.jgrapht.Graphs;
-import org.jgrapht.traverse.BreadthFirstIterator;
 import org.jgrapht.traverse.TopologicalOrderIterator;
 
-import com.google.common.collect.Multiset.Entry;
 
 import datos.RelacionTarea;
 import datos.Tarea;

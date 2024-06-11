@@ -9,9 +9,7 @@ import java.util.function.Function;
 
 import org.apache.commons.math3.fitting.WeightedObservedPoint;
 
-import ejercicios.Ejercicio1;
 import ejercicios.Ejercicio2;
-import us.lsi.common.List2;
 import us.lsi.common.Pair;
 import us.lsi.curvefitting.DataFile;
 import us.lsi.curvefitting.Fit;

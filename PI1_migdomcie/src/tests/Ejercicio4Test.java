@@ -3,7 +3,6 @@ package tests;
 import java.util.List;
 import java.util.function.Function;
 
-import ejercicios.Ejercicio2;
 import ejercicios.Ejercicio4;
 import us.lsi.common.IntPair;
 import us.lsi.streams.Stream2;

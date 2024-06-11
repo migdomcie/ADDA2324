@@ -4,12 +4,8 @@ package tests;
 import java.util.List;
 
 import org.jgrapht.Graph;
-import org.jgrapht.graph.DefaultEdge;
-import org.jgrapht.graph.SimpleWeightedGraph;
 
-import datos.Atraccion;
 import datos.RelacionTarea;
-import datos.RelacionVecindad;
 import datos.Tarea;
 import ejercicios.Ejercicio3;
 import us.lsi.colors.GraphColors;

@@ -1,8 +1,6 @@
 package tests;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Function;
 
 import ejercicios.Ejercicio4;
 import us.lsi.common.Files2;

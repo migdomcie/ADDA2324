@@ -5,7 +5,6 @@ import java.util.function.Function;
 
 import org.apache.commons.math3.fitting.WeightedObservedPoint;
 
-import ejemplos.Ejemplo1;
 import ejercicios.Ejercicio1;
 import us.lsi.common.Pair;
 import us.lsi.curvefitting.DataFile;
@@ -13,7 +12,6 @@ import us.lsi.curvefitting.Fit;
 import us.lsi.curvefitting.GenData;
 import us.lsi.curvefitting.PowerLog;
 import us.lsi.graphics.MatPlotLib;
-import us.lsi.iterativorecursivos.IterativosyRecursivosSimples;
 
 public class Ejercicio1Test {
 
