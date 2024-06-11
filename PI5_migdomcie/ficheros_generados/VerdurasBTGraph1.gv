@@ -1,0 +1,29 @@
+strict digraph G {
+  1 [ label="(ind=4, rep=[[0], [1, 3]], metrosDisp=[2, 1])" ];
+  2 [ label="(ind=5, rep=[[0], [1, 3]], metrosDisp=[2, 1])" ];
+  3 [ label="(ind=3, rep=[[0], [1]], metrosDisp=[2, 2])" ];
+  4 [ label="(ind=2, rep=[[0], [1]], metrosDisp=[2, 2])" ];
+  5 [ label="(ind=1, rep=[[0], []], metrosDisp=[2, 6])" ];
+  6 [ label="(ind=2, rep=[[0], []], metrosDisp=[2, 6])" ];
+  7 [ color="red" label="(ind=0, rep=[[], []], metrosDisp=[4, 6])" ];
+  8 [ color="red" label="(ind=4, rep=[[2, 3], [0, 1]], metrosDisp=[0, 0])" ];
+  9 [ color="red" label="(ind=5, rep=[[2, 3], [0, 1]], metrosDisp=[0, 0])" ];
+  10 [ color="red" label="(ind=3, rep=[[2], [0, 1]], metrosDisp=[1, 0])" ];
+  11 [ color="red" label="(ind=2, rep=[[], [0, 1]], metrosDisp=[4, 0])" ];
+  12 [ color="red" label="(ind=1, rep=[[], [0]], metrosDisp=[4, 4])" ];
+  13 [ label="(ind=1, rep=[[], []], metrosDisp=[4, 6])" ];
+  14 [ label="(ind=2, rep=[[], []], metrosDisp=[4, 6])" ];
+  1 -> 2 [ label="-1" ];
+  3 -> 1 [ label="1" ];
+  4 -> 3 [ label="-1" ];
+  5 -> 4 [ label="1" ];
+  5 -> 6 [ label="-1" ];
+  7 -> 5 [ label="0" ];
+  8 -> 9 [ color="red" label="-1" ];
+  10 -> 8 [ color="red" label="0" ];
+  11 -> 10 [ color="red" label="0" ];
+  12 -> 11 [ color="red" label="1" ];
+  7 -> 12 [ color="red" label="1" ];
+  13 -> 14 [ label="-1" ];
+  7 -> 13 [ label="-1" ];
+}
